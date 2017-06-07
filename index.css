@@ -1,0 +1,1146 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    font-size: 12px;
+    font-family: "Open Sans",sans-serif;
+    padding-top: 150px;
+}
+/*滚动条在火狐先不支持。支持360 IE*/
+/* 设置滚动条的样式 */ ::-webkit-scrollbar {
+    width: 12px;
+}
+/* 滚动槽 */ ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+/* 滚动条滑块 */ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #fb9507;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(255,0,0,0.4);
+    }
+/*导航通用样式*/ Ban2 header {
+    width: 100%;
+}
+
+header .MenuColor {
+    width: 100%;
+    background: white;
+    box-shadow: 1px 1px 2px #ccc;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+    header .MenuColor .menu {
+        font-size: 14px;
+        float: right;
+    }
+
+        header .MenuColor .menu li {
+            background: url("img/libg.png") no-repeat right center;
+            font-size: 14px;
+        }
+
+            header .MenuColor .menu li a {
+                display: block;
+                line-height: 61px;
+                color: black;
+                border-bottom: 3px solid white;
+                transition: border-bottom 0.5s;
+            }
+
+                header .MenuColor .menu li a:hover {
+                    color: #fb9507;
+                    border-bottom: 3px solid #fb9507;
+                }
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.orange {
+    color: #fda327;
+}
+/*产品特效板块通用样式*/
+.Ban2 {
+    padding-top: 3%;
+    margin-top: 2%;
+    width: 90%;
+    padding-bottom: 1%;
+    background-color: #fafafa;
+}
+
+    .Ban2 dl {
+        width: 100%;
+        height: 100%;
+    }
+
+        .Ban2 dl dd {
+            font-size: 16px;
+            text-align: center;
+            padding-top: 8%;
+        }
+
+            .Ban2 dl dd p {
+                font-size: 14px;
+                color: #616161;
+            }
+
+    .Ban2 dt .Font {
+        font-size: 33px;
+    }
+
+    .Ban2 dl dt {
+        margin: 0 auto;
+        color: #fb9507;
+        text-align: center;
+        line-height: 110px;
+        width: 90px;
+        height: 90px;
+        border-radius: 45px;
+        border: 1px solid #c9c9c9;
+        box-shadow: 2px 2px 2px #ccc;
+        background-color: white;
+        transition: background-color,color 0.5s,0.5s;
+    }
+
+        .Ban2 dl dt:hover {
+            margin: 0 auto;
+            color: white;
+            text-align: center;
+            line-height: 110px;
+            width: 90px;
+            height: 90px;
+            border-radius: 45px;
+            border: none;
+            box-shadow: 2px 2px 2px #ccc;
+            background-color: #fb9507;
+            cursor: pointer;
+        }
+/*适用人群*/
+.Ban3 {
+    margin-top: 3%;
+}
+
+    .Ban3 .tit {
+        width: 92%;
+        margin: 0 auto;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .Ban3 .row {
+        margin-left: 2%;
+    }
+
+        .Ban3 .row dl {
+            transition: border 0.5s;
+            width: 90%;
+            height: 90%;
+            border: 1px solid #ececec;
+            margin-top: 10%;
+            padding-top: 5%;
+        }
+
+            .Ban3 .row dl:hover {
+                width: 90%;
+                height: 90%;
+                border: 1px solid #fb9507;
+                margin-top: 10%;
+                padding-top: 5%;
+                box-shadow: 1px 1px 2px #ccc;
+            }
+
+            .Ban3 .row dl dt {
+                text-align: center;
+                width: 90%;
+                border: 1px solid #ececec;
+                margin: 0 auto;
+            }
+
+                .Ban3 .row dl dt img {
+                    width: 75%;
+                    padding-top: 5%;
+                    padding-bottom: 5%;
+                }
+
+                    .Ban3 .row dl dt img:hover {
+                        transform: rotate(360deg);
+                    }
+
+            .Ban3 .row dl dd {
+                text-align: center;
+                font-size: 18px;
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
+
+.Ban4 {
+    margin-top: 3%;
+    width: 90%;
+}
+
+#ro > div {
+    border: 1px solid white;
+}
+
+#ro1 > div {
+    border: 1px solid white;
+}
+
+.Ban4 .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+    .Ban4 .left img {
+        width: 70%;
+        padding-top: 10%;
+    }
+
+    .Ban4 .left #LeftImg2 {
+        padding-top: 9%;
+        width: 65%;
+    }
+
+.Ban4 section {
+    width: 50%;
+    float: left;
+}
+
+    .Ban4 section h4 {
+        color: black;
+        transition: color,font-weight 0.5s,1s;
+    }
+
+.Ban5 {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 6%;
+    border-bottom: 1px solid #ccc;
+}
+
+    .Ban5 .one img {
+        width: 35%;
+    }
+
+    .Ban5 dl {
+        text-align: center;
+    }
+
+    .Ban5 .obo {
+        border: none;
+    }
+
+    .Ban5 dl dt {
+        text-align: center;
+        border-right: 1px solid #ececec;
+    }
+
+    .Ban5 dl dd {
+        padding-top: 10%;
+    }
+
+    .Ban5 dl dt {
+        transition: color 0.5s;
+        font-size: 35px;
+    }
+
+        .Ban5 dl dt:hover {
+            color: #fb9507;
+            cursor: pointer;
+        }
+
+.Ban6 {
+    padding-top: 4.5%;
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+    .Ban6 dl {
+        text-align: center;
+        border-right: 1px solid #ececec;
+        border-bottom: 2px solid white;
+        transition: border-bottom 0.5s;
+    }
+
+        .Ban6 dl:hover {
+            cursor: pointer;
+            text-align: center;
+            border-right: 1px solid #ececec;
+            border-bottom: 2px solid #fb9507;
+        }
+
+        .Ban6 dl dt img {
+            width: 50%;
+        }
+
+        .Ban6 dl dd {
+            font-size: 16px;
+            padding-top: 7%;
+            padding-bottom: 9%;
+        }
+
+.Ban7 {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+    .Ban7 .Ban7Bg {
+        background-color: #f5f5f5;
+    }
+
+    .Ban7 img {
+        width: 50%;
+    }
+
+    .Ban7 .fon {
+        padding-top: 5%;
+        padding-bottom: 7.5%;
+    }
+
+        .Ban7 .fon:hover {
+            background-color: #f5f5f5;
+            padding-top: 5%;
+        }
+
+.Ban8 {
+    background-color: #6e6d6d;
+    padding-top: 1%;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+}
+
+#container {
+    border: 1px solid #ececec;
+    width: 100%;
+    height: 129px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    position: relative;
+    overflow: hidden;
+}
+
+    #container #list {
+        width: 100%;
+        height: 440px;
+        position: absolute;
+    }
+
+        #container #list img {
+            width: 100%;
+            height: 129px;
+            overflow: hidden;
+        }
+
+#moveDav {
+    display: none;
+}
+/*最大宽度为1920时*/
+@media screen and (max-width: 1920px) {
+    /*首页板块*/
+    body {
+        margin: 0;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        padding-top: 170px;
+    }
+
+    header .title {
+        font-size: 57px;
+        font-weight: 100;
+        line-height: 65px;
+        margin-left: 16%;
+        margin-top: 9%;
+    }
+
+    header p {
+        font-size: 16px;
+        color: #a5a5a5;
+        margin-left: 16%;
+        margin-top: 7%;
+        line-height: 26px;
+    }
+
+    header .navMore {
+        transition: background-color 0.5s;
+        width: 120px;
+        height: 46px;
+        margin-left: 10%;
+        margin-top: -15%;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        background-color: #fb9507;
+    }
+
+        header .navMore:hover {
+            width: 120px;
+            height: 46px;
+            margin-left: 10%;
+            margin-top: -15%;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: #feaa35;
+        }
+
+    header .center-nav {
+        width: 60%;
+        height: 60%;
+        margin-left: 28%;
+        margin-top: 7%;
+    }
+
+    header .left {
+        width: 40%;
+        padding-left:10%;
+    }
+
+        header .left span {
+            font-size: 26px;
+            margin-left: 30%;
+            display: block;
+            margin-top: 20%;
+        }
+
+    header .right {
+        width: 60%;
+    }
+
+    header .FourSquare p {
+        background-color: white;
+        -moz-transition: background-color 0.5s; /* Firefox 4 */
+        -webkit-transition: background-color 0.5s; /* Safari 和 Chrome */
+        -o-transition: background-color 0.5s;
+        font-size: 24px;
+        transition: background-color 0.5s;
+        text-align: center; /*box-shadow: 3px 3px 3px #ccc;*/
+        line-height: 60px;
+        color: #424242;
+    }
+
+        header .FourSquare p:hover {
+            background-color: #ffffff; /*cursor: pointer;*/
+            transition: background-color 0.5s;
+            text-align: center;
+            line-height: 60px; /*box-shadow: 3px 3px 3px #ccc;*/
+            color: #424242;
+        }
+
+    header .square1 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 25%;
+    }
+
+    header .square2 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 15%;
+        margin-left: -2%;
+    }
+
+    header .square3 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e;border-radius: 34px;*/
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+
+    header .square4 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    /*首页板块结束*/
+}
+/*最大宽度为1280时*/
+@media screen and (max-width: 1280px) {
+    /*首页板块*/
+    body {
+        margin: 0;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        padding-top: 150px;
+    }
+
+    header .title {
+        font-size: 57px;
+        font-weight: 100;
+        line-height: 65px;
+        margin-top: 15%;
+    }
+
+    header p {
+        font-size: 16px;
+        color: #a5a5a5;
+        margin-top: 5%;
+        line-height: 22px;
+    }
+
+    header .navMore {
+        transition: background-color 0.5s;
+        width: 120px;
+        height: 46px;
+        margin-top: -15%;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        background-color: #fb9507;
+    }
+
+        header .navMore:hover {
+            width: 120px;
+            height: 46px;
+            margin-top: -15%;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: #feaa35;
+        }
+
+    header .center-nav {
+        width: 60%;
+        height: 60%;
+        margin-top: 13%;
+    }
+
+    header .left span {
+        font-size: 20px;
+        margin-top: 16%;
+    }
+
+    header .left h1 {
+        font-size: 40px;
+    }
+
+    header .FourSquare p {
+        background-color: white;
+        -moz-transition: background-color 0.5s; /* Firefox 4 */
+        -webkit-transition: background-color 0.5s; /* Safari 和 Chrome */
+        -o-transition: background-color 0.5s;
+        font-size: 20px;
+        transition: background-color 0.5s;
+        text-align: center;
+        line-height: 35px;
+        padding-top: 10px; /*box-shadow: 3px 3px 3px #ccc;*/
+        color: #1f1f1f;
+    }
+
+        header .FourSquare p:hover {
+            background-color: #ffffff;
+            color: #1f1f1f; /*cursor: pointer;*/
+            transition: background-color 0.5s;
+            text-align: center;
+            line-height: 35px;
+            padding-top: 10px;
+            box-shadow: 3px 3px 3px #ccc;
+        }
+
+    header .square1 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 25%;
+    }
+
+    header .square2 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 15%;
+        margin-left: -2%;
+    }
+
+    header .square3 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+
+    header .square4 {
+        float: left;
+        width: 68px;
+        height: 68px; /*border: 1px solid #fbc77e; border-radius: 34px;*/
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    /*首页板块结束*/
+}
+/*最大宽度为980时*/
+@media screen and (max-width: 980px) {
+    body {
+        margin: 0;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        padding-top: 0px;
+    }
+    /*首页板块*/
+    header .title {
+        margin-left: -3%;
+        font-size: 42px;
+        font-weight: 100;
+        line-height: 42px;
+        margin-top: 15%;
+    }
+
+    header p {
+        margin-left: -3%;
+        font-size: 16px;
+        color: #a5a5a5;
+        margin-top: 5%;
+        line-height: 22px;
+    }
+
+    header .navMore {
+        margin-left: -3%;
+        transition: background-color 0.5s;
+        width: 120px;
+        height: 46px;
+        margin-top: 5%;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        background-color: #fb9507;
+    }
+
+        header .navMore:hover {
+            margin-left: -3%;
+            width: 120px;
+            height: 46px;
+            margin-top: 5%;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: #feaa35;
+        }
+
+    header .center-nav {
+        width: 63%;
+        height: 63%;
+        margin-top: 15%;
+    }
+
+    header .left span {
+        font-size: 20px;
+        margin-left: 0%;
+    }
+
+    header .FourSquare p {
+        background-color: white;
+        -moz-transition: background-color 0.5s; /* Firefox 4 */
+        -webkit-transition: background-color 0.5s; /* Safari 和 Chrome */
+        -o-transition: background-color 0.5s;
+        font-size: 20px;
+        transition: background-color 0.5s;
+        text-align: center;
+        line-height: 40px;
+        padding-top: 10px; /*box-shadow: 3px 3px 3px #ccc;*/
+        color: #1f1f1f;
+    }
+
+        header .FourSquare p:hover {
+            background-color: #ffffff;
+            color: #1f1f1f; /*cursor: pointer;*/
+            transition: background-color 0.5s;
+            text-align: center;
+            line-height: 40px;
+            padding-top: 10px;
+            box-shadow: 3px 3px 3px #ccc;
+        }
+
+    header .square1 {
+        float: left;
+        width: 64px;
+        height: 64px; /*border: 1px solid #fbc77e; border-radius: 32px;*/
+        margin-top: 30%;
+    }
+
+    header .square2 {
+        float: left;
+        width: 64px;
+        height: 64px; /*border: 1px solid #fbc77e; border-radius: 32px;*/
+        margin-top: 17%;
+        margin-left: -2%;
+    }
+
+    header .square3 {
+        float: left;
+        width: 64px;
+        height: 64px; /*border: 1px solid #fbc77e; border-radius: 32px;*/
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+
+    header .square4 {
+        float: left;
+        width: 64px;
+        height: 64px; /*border: 1px solid #fbc77e; border-radius: 32px;*/
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    /*首页板块结束*/
+    .Ban4 .left {
+        width: 50%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+
+        .Ban4 .left img {
+            padding-top: 10%;
+        }
+
+    .Ban4 section {
+        font-size: 16px;
+        width: 50%;
+        float: left;
+        padding-top: 10%;
+    }
+
+        .Ban4 section h4 {
+            font-size: 20px;
+            color: black;
+            transition: color,font-weight 0.5s,1s;
+        }
+
+    .Ban6 dl dd {
+        font-size: 14px;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+
+    #moveDav {
+        display: block;
+    }
+
+    #fixedDav {
+        display: none;
+    }
+}
+/*最大宽度为768时*/
+@media screen and (max-width:768px) {
+    /*首页板块*/
+    header {
+        width: 100%;
+    }
+
+        header .MenuColor {
+            width: 100%;
+            padding-bottom: 7%;
+        }
+
+            header .MenuColor .menu {
+                font-size: 14px;
+                float: right;
+                border: none;
+            }
+
+                header .MenuColor .menu li {
+                    float: left;
+                    background: url("img/libg.png") no-repeat right center;
+                    font-size: 14px;
+                }
+
+                    header .MenuColor .menu li a {
+                        display: block;
+                        color: black;
+                        border-bottom: 3px solid white;
+                        transition: border-bottom 0.5s;
+                    }
+
+                        header .MenuColor .menu li a:hover {
+                            color: #fb9507;
+                            border-bottom: 3px solid #fb9507;
+                        }
+
+        header p {
+            margin-left: 3%;
+            font-size: 14px;
+            color: #a5a5a5;
+            margin-top: 3%;
+            line-height: 20px;
+        }
+
+        header .navMore {
+            margin-left: 3%;
+            transition: background-color 0.5s;
+            width: 120px;
+            height: 46px;
+            margin-top: 3%;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: #fb9507;
+        }
+
+            header .navMore:hover {
+                margin-left: 3%;
+                width: 120px;
+                height: 46px;
+                margin-top: 3%;
+                font-size: 15px;
+                border-radius: 5px;
+                color: white;
+                background-color: #feaa35;
+            }
+
+        header .center-nav {
+            width: 60%;
+            height: 60%;
+        }
+
+        header .left {
+            width: 40%;
+            float: left;
+        }
+
+            header .left .title {
+                font-size: 30px;
+                margin-left: 3%;
+            }
+
+            header .left span {
+                margin-top: 0%;
+            }
+
+        header .right {
+            width: 60%;
+            float: left;
+        }
+
+        header .FourSquare p {
+            background-color: white;
+            -moz-transition: background-color 0.5s; /* Firefox 4 */
+            -webkit-transition: background-color 0.5s; /* Safari 和 Chrome */
+            -o-transition: background-color 0.5s;
+            font-size: 16px;
+            transition: background-color 0.5s;
+            text-align: center;
+            line-height: 35px;
+            padding-top: 8px;
+            box-shadow: 3px 3px 3px #ccc;
+            color: #1f1f1f;
+        }
+
+            header .FourSquare p:hover {
+                background-color: #ffffff;
+                color: #1f1f1f; /*cursor: pointer;*/
+                transition: background-color 0.5s;
+                text-align: center;
+                line-height: 35px;
+                padding-top: 10px; /*box-shadow: 3px 3px 3px #ccc;*/
+            }
+
+        header .square1 {
+            float: left;
+            width: 60px;
+            height: 60px; /*border: 1px solid #fbc77e; border-radius: 30px;*/
+            margin-top: 30%;
+        }
+
+        header .square2 {
+            float: left;
+            width: 60px;
+            height: 60px; /*border: 1px solid #fbc77e; border-radius: 30px;*/
+            margin-top: 17%;
+            margin-left: -2%;
+        }
+
+        header .square3 {
+            float: left;
+            width: 60px;
+            height: 60px; /*border: 1px solid #fbc77e; border-radius: 30px;*/
+            margin-top: 7%;
+            margin-left: 1%;
+        }
+
+        header .square4 {
+            float: left;
+            width: 60px;
+            height: 60px; /*border: 1px solid #fbc77e; border-radius: 30px;*/
+            margin-top: 1%;
+            margin-left: 3%;
+        }
+    /*首页板块结束*/
+    .Ban6 dl dd {
+        font-size: 12px;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+}
+/*最大宽度为530时*/
+@media screen and (max-width:530px) {
+    /*首页板块*/
+    header {
+        width: 100%;
+    }
+
+        header .MenuColor {
+            width: 100%;
+            padding-bottom: 9%;
+        }
+
+            header .MenuColor .menu {
+                font-size: 14px;
+                width: 80%;
+                float: right;
+                border: none;
+            }
+
+                header .MenuColor .menu li {
+                    float: left;
+                    background: none;
+                    font-size: 14px;
+                }
+
+                    header .MenuColor .menu li a {
+                        line-height: 20px;
+                        display: block;
+                        color: black;
+                        border-bottom: 2px solid white;
+                        transition: border-bottom 0.5s;
+                    }
+
+                        header .MenuColor .menu li a:hover {
+                            color: #fb9507;
+                            border-bottom: 2px solid #fb9507;
+                        }
+
+        header .left .title {
+            font-size: 20px;
+            line-height: 25px;
+            margin-top: 5%;
+            margin-left: 3%;
+        }
+
+        header p {
+            margin-left: 3%;
+            font-size: 14px;
+            color: #a5a5a5;
+            margin-top: 3%;
+            line-height: 20px;
+        }
+
+        header .navMore {
+            margin-left: 3%;
+            transition: background-color 0.5s;
+            width: 120px;
+            height: 46px;
+            margin-top: 3%;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            background-color: #fb9507;
+        }
+
+            header .navMore:hover {
+                margin-left: 3%;
+                width: 120px;
+                height: 46px;
+                margin-top: 3%;
+                font-size: 15px;
+                border-radius: 5px;
+                color: white;
+                background-color: #feaa35;
+            }
+
+        header .center-nav {
+            width: 100%;
+            height: 100%;
+            margin-top: 85px;
+        }
+
+        header .left {
+            width: 50%;
+            float: left;
+        }
+
+            header .left span {
+                font-size: 16px;
+            }
+
+        header .right {
+            width: 50%;
+            float: left;
+        }
+
+        header .FourSquare p {
+            display: none;
+        }
+    /*首页板块结束*/
+    .Ban4 .left img {
+        padding-top: 40%;
+    }
+
+    .Ban4 .left #LeftImg2 {
+        padding-top: 40%;
+    }
+
+    .Adv {
+        display: none;
+    }
+}
+/*最大宽度为360时*/
+@media screen and (max-width:360px) {
+    /*首页板块*/
+    header {
+        width: 100%;
+    }
+
+        header .MenuColor {
+            width: 100%;
+            padding-bottom: 10%;
+        }
+
+            header .MenuColor .menu {
+                font-size: 12px;
+                width: 40%;
+                float: left;
+                border: none;
+            }
+
+            header .MenuColor .logo {
+                width: 70px;
+                height: 49px;
+                margin-left: 100px;
+            }
+
+            header .MenuColor .menu li {
+                float: left;
+                background: none;
+                font-size: 14px;
+            }
+
+                header .MenuColor .menu li a {
+                    display: block;
+                    text-align: center;
+                    line-height: 20px;
+                    color: black;
+                    border-bottom: 2px solid white;
+                    transition: border-bottom 0.5s;
+                }
+
+                    header .MenuColor .menu li a:hover {
+                        color: #fb9507;
+                        border-bottom: 2px solid #fb9507;
+                    }
+
+        header .left .title {
+            margin-left: -3%;
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 22px;
+            margin-top: 5%;
+        }
+
+        header p {
+            margin-left: -3%;
+            font-size: 8px;
+            color: #a5a5a5;
+            margin-top: 5%;
+            line-height: 14px;
+        }
+
+        header .center-nav {
+            width: 80%;
+            height: 80%;
+            margin-top: 25%;
+        }
+
+        header .left {
+            width: 40%;
+            float: left;
+        }
+
+            header .left span {
+                font-size: 10px;
+            }
+
+        header .right {
+            width: 60%;
+            float: left;
+        }
+
+        header .FourSquare p {
+            display: none;
+        }
+    /*首页板块结束*/
+    /*适用人群*/
+    .Ban3 .row dl dd {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .Ban4 .left {
+        width: 50%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+
+        .Ban4 .left img {
+            width: 70%;
+            padding-top: 40%;
+        }
+
+        .Ban4 .left #LeftImg2 {
+            padding-top: 40%;
+            width: 65%;
+        }
+
+    .Ban4 section {
+        width: 50%;
+        float: left;
+    }
+
+        .Ban4 section p {
+            font-size: 12px;
+        }
+
+        .Ban4 section h4 {
+            color: black;
+            transition: color,font-weight 0.5s,1s;
+            font-size: 16px;
+        }
+
+    .Ban6 dl dd {
+        font-size: 9px;
+        padding-top: 7%;
+        padding-bottom: 9%;
+    }
+
+    .Ban5 {
+        margin: 0 auto;
+        width: 60%;
+        padding-top: 4%;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .Ban5 .one img {
+            width: 80%;
+        }
+}
